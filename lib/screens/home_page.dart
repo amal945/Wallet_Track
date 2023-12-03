@@ -98,7 +98,7 @@ class _DashBoardState extends State<DashBoard> {
                           height: responsiveFontSize(60),
                         ),
                         Text(
-                          "You haven't added any data yet",
+                          "You haven't added any data yet!",
                           style: TextStyle(
                               color: Colors.white,
                               fontSize: responsiveFontSize(20)),
