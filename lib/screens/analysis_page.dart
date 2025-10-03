@@ -1,9 +1,9 @@
 // ignore_for_file: unnecessary_const, non_constant_identifier_names
 
 import 'package:flutter/material.dart';
-import 'package:money_management/db/transaction_data_model.dart';
-import 'package:money_management/functions/db_transaction_functions.dart';
-import 'package:money_management/widgets/chart.dart';
+import 'package:wallet_track/db/transaction_data_model.dart';
+import 'package:wallet_track/functions/db_transaction_functions.dart';
+import 'package:wallet_track/widgets/chart.dart';
 
 class AnalysisPage extends StatefulWidget {
   const AnalysisPage({super.key});

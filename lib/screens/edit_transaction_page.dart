@@ -2,9 +2,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:money_management/db/transaction_data_model.dart';
-import 'package:money_management/functions/db_transaction_functions.dart';
-import 'package:money_management/screens/dashboard.dart';
+import 'package:wallet_track/db/transaction_data_model.dart';
+import 'package:wallet_track/functions/db_transaction_functions.dart';
+import 'package:wallet_track/screens/dashboard.dart';
 
 class EditTransactionPage extends StatefulWidget {
   final TransactionModel transactionData;

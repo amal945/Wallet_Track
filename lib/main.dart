@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:money_management/db/data_model.dart';
-import 'package:money_management/db/transaction_data_model.dart';
-import 'package:money_management/functions/db_transaction_functions.dart';
-import 'package:money_management/screens/splash.dart';
+import 'package:wallet_track/db/data_model.dart';
+import 'package:wallet_track/db/transaction_data_model.dart';
+import 'package:wallet_track/functions/db_transaction_functions.dart';
+import 'package:wallet_track/screens/splash.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

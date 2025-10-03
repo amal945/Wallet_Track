@@ -4,10 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:money_management/db/data_model.dart';
-import 'package:money_management/functions/db_functions.dart';
-import 'package:money_management/screens/dashboard.dart';
-import 'package:money_management/screens/name_screen.dart';
+import 'package:wallet_track/db/data_model.dart';
+import 'package:wallet_track/functions/db_functions.dart';
+import 'package:wallet_track/screens/dashboard.dart';
+import 'package:wallet_track/screens/name_screen.dart';
 
 class SplashScreeen extends StatefulWidget {
   const SplashScreeen({super.key});

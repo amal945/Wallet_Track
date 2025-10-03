@@ -2,14 +2,14 @@
 
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:money_management/db/data_model.dart';
-import 'package:money_management/db/transaction_data_model.dart';
-import 'package:money_management/functions/db_functions.dart';
-import 'package:money_management/functions/db_transaction_functions.dart';
-import 'package:money_management/screens/about.dart';
-import 'package:money_management/screens/invite_friends.dart';
-import 'package:money_management/screens/name_screen.dart';
-import 'package:money_management/screens/privacy_policy.dart';
+import 'package:wallet_track/db/data_model.dart';
+import 'package:wallet_track/db/transaction_data_model.dart';
+import 'package:wallet_track/functions/db_functions.dart';
+import 'package:wallet_track/functions/db_transaction_functions.dart';
+import 'package:wallet_track/screens/about.dart';
+import 'package:wallet_track/screens/invite_friends.dart';
+import 'package:wallet_track/screens/name_screen.dart';
+import 'package:wallet_track/screens/privacy_policy.dart';
 
 class SettingsPage extends StatefulWidget {
   const SettingsPage({super.key});

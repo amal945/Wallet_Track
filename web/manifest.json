@@ -1,6 +1,6 @@
 {
-    "name": "money_management",
-    "short_name": "money_management",
+    "name": "wallet_track",
+    "short_name": "wallet_track",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

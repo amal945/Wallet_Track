@@ -1,12 +1,12 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:money_management/functions/db_functions.dart';
-import 'package:money_management/screens/add_transactions_page.dart';
-import 'package:money_management/screens/analysis_page.dart';
-import 'package:money_management/screens/home_page.dart';
-import 'package:money_management/screens/settings_page.dart';
-import 'package:money_management/screens/transaction_page.dart';
+import 'package:wallet_track/functions/db_functions.dart';
+import 'package:wallet_track/screens/add_transactions_page.dart';
+import 'package:wallet_track/screens/analysis_page.dart';
+import 'package:wallet_track/screens/home_page.dart';
+import 'package:wallet_track/screens/settings_page.dart';
+import 'package:wallet_track/screens/transaction_page.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});

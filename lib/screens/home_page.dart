@@ -3,9 +3,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:intl/intl.dart';
-import 'package:money_management/functions/db_functions.dart';
-import 'package:money_management/functions/db_transaction_functions.dart';
-import 'package:money_management/screens/edit_transaction_page.dart';
+import 'package:wallet_track/functions/db_functions.dart';
+import 'package:wallet_track/functions/db_transaction_functions.dart';
+import 'package:wallet_track/screens/edit_transaction_page.dart';
 
 class DashBoard extends StatefulWidget {
   const DashBoard({Key? key});

@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:money_management/db/transaction_data_model.dart';
+import 'package:wallet_track/db/transaction_data_model.dart';
 import 'package:uuid/uuid.dart';
 
 ValueNotifier<List<TransactionModel>> transactionListNotifier =

@@ -2,10 +2,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:money_management/db/data_model.dart';
+import 'package:wallet_track/db/data_model.dart';
 
-ValueNotifier<List<UserNameModel>> userNameNotifier =
-    ValueNotifier([]);
+ValueNotifier<List<UserNameModel>> userNameNotifier = ValueNotifier([]);
 
 Future<void> addUser(UserNameModel data) async {
   final studentDB = await Hive.openBox<UserNameModel>("username_db");
@@ -27,4 +26,3 @@ Future<void> clearUserData() async {
   userNameNotifier.value.clear();
   userNameNotifier.notifyListeners();
 }
-

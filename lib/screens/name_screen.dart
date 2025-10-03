@@ -1,9 +1,9 @@
 // ignore_for_file: prefer_const_constructors, library_private_types_in_public_api, use_key_in_widget_constructors, no_leading_underscores_for_local_identifiers
 
 import 'package:flutter/material.dart';
-import 'package:money_management/db/data_model.dart';
-import 'package:money_management/functions/db_functions.dart';
-import 'package:money_management/screens/dashboard.dart';
+import 'package:wallet_track/db/data_model.dart';
+import 'package:wallet_track/functions/db_functions.dart';
+import 'package:wallet_track/screens/dashboard.dart';
 
 class NamePage extends StatefulWidget {
   const NamePage({Key? key});
