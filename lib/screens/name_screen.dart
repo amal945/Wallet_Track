@@ -27,7 +27,7 @@ class _NamePageState extends State<NamePage> {
               children: [
                 ClipOval(
                   child: Image(
-                    image: AssetImage('images/Logo.jpg'),
+                    image: AssetImage('images/logo.png'),
                     width: 100,
                     height: 90,
                   ),
